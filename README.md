@@ -4,35 +4,32 @@
 **ID** : CT12DS2920<br>
 **Domain** : Python Programming<br>
 **Duration** : December 2024 to February 2025<br>
-**Task-1** : Calculator performing operations like Addition, Substraction, Multiplication and Division.<br>
+**Task-2** : Student Grade System.<br>
  ## Overview of the Project
  ### Objective : 
- The objective of the project is to create a calculator performing operations like Addition, Substraction, Multiplication and Division using python.
+ The objective of the project is to create a Student Grade System using python.
  ### Features:
  <ul>
-Addition of two numbers<br>
-Subtraction of two numbers<br>
-Multiplication of two numbers<br>
-Division of two numbers (with error handling for division by zero)<br>
-The program takes user inputs for the numbers and the operation to be performed.<br>
+	 Takes input of various students and subjects.<br>
+	 Claculates grades and grade point.<br>
+	 User-Friendly Interaction.<br>
+	 Clear Tabular Output.<br>
+	 Error Handling.<br>
 </ul>
 ### Code Explanation
 <ol>
-1. The calci class:<br>
+1. Functions Overview:<br>
 	<ol>
-The class is initialized with two numbers (fno and sno).<br>
-It contains four methods:<br><ol>
-add(): Adds the two numbers and prints the result.<br>
-sub(): Subtracts the second number from the first and prints the result.<br>
-multi(): Multiplies the two numbers and prints the result.<br>
-div(): Divides the first number by the second. If the second number is zero, an error message is displayed, and the program prompts the user again.</ol></ol><br>
-2. The inp() function:<br><ol>
-This function prompts the user to enter two numbers and creates an instance of the calci class with those numbers.</ol><br>
-3. The main() function:<br><ol>
-This is the core function of the program. 
-It displays a menu of operations and asks the user to choose one.<br>
-Depending on the user's choice, it calls the appropriate method from the calci class and displays the result.<br>
-If the user chooses to exit (option 5), the program terminates.</ol><br>
+calculate_letter_grade(average_grade): Determines the letter grade (A, B, C, D, F) based on the average grade.<br>
+calculate_gpa(average_grade): Calculates the GPA on a 10.0 scale based on the average grade.<br>
+get_valid_grade(subject): Ensures that the grade entered for a subject is a valid numeric value between 0 and 100.</ol><br>
+2. Main Process (manage_students_grades):<br><ol>
+	Prompts the user to input student names, subjects, and corresponding grades.<br>
+Repeatedly asks if the user wants to add more subjects for each student or add another student.<br>
+For each student, calculates their average grade, letter grade, and GPA.<br>
+Stores all the students' information in a list of dictionaries.</ol><br>
+3. Output:<br><ol>
+Displays a tabular report showing each student’s name, subjects, grades, average grade, letter grade, and GPA.</ol><br>
 </ol>
 ### Output :
 ![image](https://github.com/user-attachments/assets/ad733435-edbe-4460-acfd-7d8ff85256c3)
