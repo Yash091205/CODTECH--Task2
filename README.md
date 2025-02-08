@@ -16,7 +16,8 @@
 	 Clear Tabular Output.<br>
 	 Error Handling.<br>
 </ul>
-### Code Explanation
+
+###  Code Explanation:
 <ol>
 1. Functions Overview:<br>
 	<ol>
@@ -31,4 +32,6 @@ Stores all the students' information in a list of dictionaries.</ol><br>
 3. Output:<br><ol>
 Displays a tabular report showing each student’s name, subjects, grades, average grade, letter grade, and GPA.</ol><br>
 </ol>
+
 ### Output :
+ ![image](https://github.com/user-attachments/assets/3446988f-ede3-4ec8-bb00-051882146d53)
