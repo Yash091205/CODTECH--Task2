@@ -32,5 +32,3 @@ Stores all the students' information in a list of dictionaries.</ol><br>
 Displays a tabular report showing each student’s name, subjects, grades, average grade, letter grade, and GPA.</ol><br>
 </ol>
 ### Output :
-![image](https://github.com/user-attachments/assets/960cc774-8160-4b81-af79-a0b64b3ba62e)
-
